@@ -1,0 +1,348 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #EBEEFE;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: white;
+    height: 25vw;
+    border: solid black 1px;
+}
+
+#btm {
+    font-size: 13vw;
+    margin-left: 7vw;
+    color: black;
+}
+
+#bars {
+    margin-top: 5vw;
+}
+
+#menu {
+    display: none;
+    width: 80%;
+    margin-top: 6vw;
+    border: solid black 1px;
+    background-color: white;
+}
+
+#menu ul {
+    list-style: none;
+    flex-direction: column;
+}
+
+#menu ul li {
+    width: 100%;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.headerlink {
+    color: black;
+    font-size: 6vw;
+}
+
+.hrmenu {
+    width: 60%;
+    margin-left: 20%;
+    height: 1px;
+}
+
+hr {
+    color: black;
+    height: 2px;
+    background-color: black;
+}
+
+#logo {
+    width: 50%;
+    margin-top: 5vw;
+    margin-right: 10vw;
+    float: right;
+}
+
+#logo img {
+    width: 100%;
+}
+
+.redes {
+    display: none;
+}
+
+#eu {
+    margin-left: 27vw;
+    margin-top: 33vw;
+    width: 45vw;
+}
+
+#eu img {
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 7vw;
+    margin-bottom: 3vw;
+}
+
+.titulo h2 {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 8vw;
+}
+
+#hrdosm {
+    margin-left: 25vw;
+    width: 50vw;
+}
+
+#texto {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 4vw;
+    text-align: center;
+    font-size: 5vw;
+}
+
+#hrdoarte {
+    margin-top: 4vw;
+}
+
+.artes {
+    width: 80vw;
+    margin-bottom: 2vw;
+}
+
+.artes img {
+    width: 100%;
+    margin-left: 10vw;
+}
+
+footer {
+    background-color: #EEE6E6;
+    height: 8vw;
+}
+
+footer p {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 5vw;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    header {
+        position: absolute;
+        content: cover;
+        width: 100%;
+        top: 0;
+        background-color: white;
+        height: 6vw;
+    }
+
+    #btm {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        width: 100%;
+        border: none;
+    }
+
+    ul {
+        position: absolute;
+        list-style: none;
+        margin-top: -13.5vw;
+    }
+    
+    .headerlink {
+        text-decoration: none;
+        color: black;
+        font-size: 100%;
+    }
+
+    #home {
+        float: left;
+        margin-left: 4vw;
+    }
+
+    #ilus {
+        float: left;
+        margin-left: 14vw;
+        margin-top: -5.5vw;
+    }
+
+    #foto {
+        float: left;
+        margin-left: 30vw;
+        margin-top: -5.5vw;
+    }
+
+    #contato {
+        float: left;
+        margin-left: 44vw;
+        margin-top: -5.5vw;
+    }
+
+    .linha {
+        border-right: solid black 1px;
+        height: 2vw;
+        margin-left: -10vw;
+    }
+
+    #linhah {
+        margin-right: 8.7vw;
+        margin-top: -0.5vw;
+    }
+
+    #linhai {
+        margin-right: 23.5vw;
+        margin-top: -6vw;
+    }
+
+    #linhaf {
+        margin-right: 39vw;
+        margin-top: -6vw;
+    }
+
+    .hrmenu {
+        display: none;
+    }
+
+    #logo {
+        width: 19vw;
+        margin-top: 0.3vw;
+        margin-right: 24vw;
+        float: right;
+    }
+        
+    #logo img {
+        width: 100%;
+    }
+
+    #redesi {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .redes {
+        display: inline-block;
+        font-size: 4vw;
+        margin-top: 0.7vw;
+        margin-right: 2vw;
+    }
+
+    #face {
+        margin-left: 80vw;
+        color: #336699;
+    }
+
+    #insta {
+        width: 3.7vw;
+        margin-top: 0.5vw;
+    }
+
+    #tt {
+        color: #0099ff;
+    }
+
+    #eu {
+        margin-left: 10vw;
+        margin-top: 11vw;
+        width: 25vw;
+    }
+        
+    #eu img {
+        width: 100%;
+    }
+
+    #sm {
+        width: 100%;
+        margin-top: -25vw;
+    }
+
+    #smh {
+        font-size: 3vw;
+        text-transform: uppercase;
+        margin-left: 30vw;
+    }
+
+    #hrdosm {
+        width: 30vw;
+        float: right;
+        margin-right: 19vw;
+        margin-top: -2vw;
+    }
+
+    #texto {
+        width: 45%;
+        float: right;
+        margin-right: 12vw;
+        margin-top: 0vw;
+    }
+
+    #texto p {
+        font-size: 2vw;
+    }
+
+    #hrdoarte {
+        margin-top: 26vw;
+        width: 86%;
+        margin-left: 7vw;
+    }
+
+    #arte {
+        width: 100%;
+    }
+
+    #arteh {
+        font-size: 4vw;
+        text-transform: uppercase;
+        margin-top: -4vw;
+    }
+
+    #diva {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #icon {
+        width: 26.5vw;
+        margin-right: 2vw;
+    }
+
+    #flor {
+        width: 22vw;
+        margin-right: 2vw;
+    }
+
+    #draw {
+        width: 25.5vw;
+    }
+
+    footer {
+        height: 3vw;
+    }
+    
+    footer p {
+        text-align: center;
+        font-size: 2vw;
+    }
+}

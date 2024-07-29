@@ -1,0 +1,316 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #EBEEFE;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: white;
+    height: 25vw;
+    border: solid black 1px;
+}
+
+#btm {
+    font-size: 13vw;
+    margin-left: 7vw;
+    color: black;
+}
+
+#bars {
+    margin-top: 5vw;
+}
+
+#menu {
+    display: none;
+    width: 80%;
+    margin-top: 6vw;
+    border: solid black 1px;
+    background-color: white;
+}
+
+#menu ul {
+    list-style: none;
+    flex-direction: column;
+}
+
+#menu ul li {
+    width: 100%;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.headerlink {
+    color: black;
+    font-size: 6vw;
+}
+
+.hrmenu {
+    width: 60%;
+    margin-left: 20%;
+    height: 1px;
+}
+
+hr {
+    color: black;
+    height: 2px;
+    background-color: black;
+}
+
+#logo {
+    width: 50%;
+    margin-top: 5vw;
+    margin-right: 10vw;
+    float: right;
+}
+
+#logo img {
+    width: 100%;
+
+}
+
+.redes {
+    display: none;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 35vw;
+    margin-bottom: 8vw;
+}
+
+.titulo h2 {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 7vw;
+    text-transform: uppercase;
+}
+
+.fotos {
+    width: 80vw;
+    margin-bottom: 2vw;
+}
+
+.fotos img {
+    width: 100%;
+    margin-left: 10vw;
+}
+
+footer {
+    background-color: #EEE6E6;
+    height: 8vw;
+}
+
+footer p {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 5vw;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    header {
+        position: absolute;
+        content: cover;
+        width: 100%;
+        top: 0;
+        background-color: white;
+        height: 6vw;
+    }
+
+    #btm {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        width: 100%;
+        border: none;
+    }
+
+    ul {
+        position: absolute;
+        list-style: none;
+        margin-top: -13.5vw;
+    }
+    
+    .headerlink {
+        text-decoration: none;
+        color: black;
+        font-size: 100%;
+    }
+
+    #home {
+        float: left;
+        margin-left: 4vw;
+    }
+
+    #ilus {
+        float: left;
+        margin-left: 14vw;
+        margin-top: -5.5vw;
+    }
+
+    #foto {
+        float: left;
+        margin-left: 30vw;
+        margin-top: -5.5vw;
+    }
+
+    #contato {
+        float: left;
+        margin-left: 44vw;
+        margin-top: -5.5vw;
+    }
+
+    .linha {
+        border-right: solid black 1px;
+        height: 2vw;
+        margin-left: -10vw;
+    }
+
+    #linhah {
+        margin-right: 8.7vw;
+        margin-top: -0.5vw;
+    }
+
+    #linhai {
+        margin-right: 23.5vw;
+        margin-top: -6vw;
+    }
+
+    #linhaf {
+        margin-right: 39vw;
+        margin-top: -6vw;
+    }
+
+    .hrmenu {
+        display: none;
+    }
+
+    #logo {
+        width: 19vw;
+        margin-top: 0.3vw;
+        margin-right: 24vw;
+        float: right;
+    }
+        
+    #logo img {
+        width: 100%;
+    }
+
+    #redesi {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .redes {
+        display: inline-block;
+        font-size: 4vw;
+        margin-top: 0.7vw;
+        margin-right: 2vw;
+    }
+
+    #face {
+        margin-left: 80vw;
+        color: #336699;
+    }
+
+    #insta {
+        width: 3.7vw;
+        margin-top: 0.5vw;
+    }
+
+    #tt {
+        color: #0099ff;
+    }
+
+    .titulo {
+        width: 100%;
+        margin-top: 10vw;
+    }
+
+    .titulo h2 {
+        font-size: 4vw;
+    }
+
+    #divf {
+        display: flex;
+        flex-direction: row;
+        margin-top: -4vw;
+    }
+
+    #divfa {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #divfr {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #flora {
+        width: 21.3vw;
+        margin-right: 2vw;
+    }
+
+    #rosa {
+        width: 30vw;
+        margin-right: 2vw;
+    }
+
+    #gira {
+        width: 24.2vw;
+    }
+
+    #amarela{
+        width: 25vw;
+        margin-right: 2vw;
+    }
+
+    #mao {
+        width: 22vw;
+        margin-right: 2vw;
+    }
+
+    #yellow {
+        width: 28.6vw;
+    }
+
+    #rosarosa{
+        width: 24.5vw;
+        margin-right: 2vw;
+    }
+
+    #red {
+        width: 26.3vw;
+        margin-right: 2vw;
+    }
+
+    #rosab {
+        width: 24.9vw;
+    }
+
+    footer {
+        height: 3vw;
+    }
+    
+    footer p {
+        text-align: center;
+        font-size: 2vw;
+    }
+}    
